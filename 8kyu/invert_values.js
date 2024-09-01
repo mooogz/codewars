@@ -13,7 +13,5 @@
 // Return the inverted array
 
 function invert(array) {
-    console.log(array.map(i => i * -1 ))
- }
-
- invert([1, -2, 3, -4, 5])
+    return array.map(i => i * -1 )
+}
